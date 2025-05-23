@@ -1,7 +1,19 @@
+# 基础依赖
 streamlit==1.31.0
-opencv-python==4.8.0.74
 numpy==1.24.3
+Pillow==9.5.0
+
+# 视觉处理
+opencv-python==4.8.0.74
+ultralytics==8.0.145
+
+# 深度学习
 torch==2.0.1
 torchvision==0.15.2
-ultralytics==8.0.145
-pillow==9.5.0 
+
+# 文件处理
+python-multipart==0.0.6
+pathlib==1.0.1
+
+# 系统相关
+psutil==5.9.5 
